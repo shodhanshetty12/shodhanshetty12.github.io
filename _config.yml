@@ -1,4 +1,5 @@
 # Welcome to Jekyll!
+# This config file is meant for settings that affect your whole blog
 
 # Main Page Setup
 title: Shodhan Kumar Shetty's Portfolio
@@ -7,73 +8,66 @@ title: Shodhan Kumar Shetty's Portfolio
 name: Shodhan Kumar Shetty
 headline: Final Year CSE Student | Java Developer | Data Analytics Enthusiast
 description: >-
-  A final year Computer Science Engineering student at Alva’s Institute of Engineering and Technology. Intermediate in Java programming with a strong interest in problem solving using arrays, strings, numericals, sliding window, and hashtable-based approaches. Also exploring data analytics using PostgreSQL and web development.
+  A final year Computer Science Engineering student at Alva’s Institute of Engineering and Technology.
+  Strong interest in Java programming and problem solving involving arrays, strings, numericals, sliding window,
+  and hashtable-based approaches. Also exploring data analytics using PostgreSQL and web development.
 
 profile_image: ./assets/images/profile-image/pfp.jpg
 
-# Link your resume
 resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing
 
-# Set up external links
+# External links
 external-links:
   linkedin: shodhan-kumar-shetty-182568252
   github: shodhanshetty12
   leetcode: CtrlAltConquer
   codechef: shodhanshetty
   hackerank: 4AL22CS150
-  medium: shodhankumarshetty963
   youtube: shodhanshetty12
-  discord: 1394703412943126540/1394703413555499201
+  medium: shodhankumarshetty963
+  discord: channels/1394703412943126540/1394703413555499201
   bluesky: shodhankumarshetty.bsky.social
 
 # Skills Section
 skills:
   - category: Programming Languages
     tools:
-      - Java
-      - Python
-      - C
-      - C++
-  - category: Web Development
-    tools:
-      - HTML
-      - CSS
-      - JavaScript
-      - React.js
-      - VS Code
+    - Java
+    - Python
+    - C
+    - C++
   - category: Data Analytics & Databases
     tools:
-      - SQL
-      - MySQL
-      - PostgreSQL
-      - Excel
-      - Pandas
-  - category: Tools & Environments
+    - PostgreSQL
+    - MySQL
+    - Pandas
+    - Excel
+  - category: Web & Software Development
     tools:
-      - Eclipse IDE
-      - Jupyter Notebook
-      - TeXworks (LaTeX)
-      - CAD Tools
-  - category: Cloud Platforms
+    - React.js
+    - Jupyter Notebook
+    - Eclipse IDE
+    - VS Code
+  - category: Documentation & CAD Tools
     tools:
-      - Google Cloud
-      - AWS
-  - category: Competitive Programming & Learning Platforms
+    - TeXworks
+    - Solid Edge CAD
+  - category: Cloud & Platforms
     tools:
-      - HackerRank
-      - CodeChef
-      - LeetCode
-      - GeeksforGeeks
-  - category: Certification Platforms
-    tools:
-      - Coursera
-      - Udemy
-      - Infosys Springboard
+    - AWS
+    - Google Cloud
+    - HackerRank
+    - LeetCode
+    - CodeChef
+    - GeeksforGeeks
+    - Coursera
+    - Udemy
+    - Infosys Springboard
 
 # Contact Form Setup
 formspree-key: https://formspree.io/f/{8-digit key}
 
-# Theme Colors (unchanged)
+# Theme Colors
 colors:
   text: "#1a1c20"
   border: "#ddd"
@@ -82,41 +76,7 @@ colors:
   background: "#ffffff"
   light_background: "#f3f5fb"
 
-basic theme:
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
-
-mint theme:
-  text: "#2c3333"
-  border: "#e0f2ef"
-  link: "#40b3a2"
-  highlight: "#2a9d8f"
-  background: "#f7fbfa"
-  light_background: "#f0f9f7"
-
-lemon theme:
-  text: "#2d2926"
-  border: "#f7f3e3"
-  link: "#ffc94d"
-  highlight: "#ffb800"
-  background: "#fffdf5"
-  light_background: "#fff9e6"
-
-pink theme:
-  text: "#2d2d2d"
-  border: "#f8e2e2"
-  link: "#ff8fa3"
-  highlight: "#ff4d6d"
-  background: "#fff8f8"
-  light_background: "#fff5f6"
-
-#########################################################################################################
 # Build settings
-
 collections:
   projects:
     output: true
